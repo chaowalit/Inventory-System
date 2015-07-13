@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/************************* Front Center : Venue & Accom ***************************/
+#block-quicktabs-4 {
+	margin-bottom:10px;
+	display:block;
+        padding-left: 100px;
+	width:960px;
+	height:640px;
+}
+#block-quicktabs-4 .quicktabs_wrapper{ display:block; float:left; margin:0; padding:0;}
+#block-quicktabs-4 .title {
+	display:none;
+}
+#block-quicktabs-4 .quicktabs_tabs {
+	
+	width:998px;
+	float:left;
+	padding:0;
+	overflow:hidden;
+	display:block;
+	position:relative;
+}
+#block-quicktabs-4 .quicktabs_tabs li {
+	padding:0;
+	margin:0;
+	display:block;
+	float:left;
+}
+#block-quicktabs-4 .quicktabs_tabs li a {
+	display:block;
+	float:left;
+	text-indent:-9999px;
+	width:900px;
+	padding:0;
+	margin:0;
+}
+#block-quicktabs-4 .quicktabs_tabs li.qtab-0.active a {
+	display:block;
+	float: left;
+	height:31px;
+	width:180px!important;
+	background:url(../images/box_center_title_vunue.png) left top no-repeat;
+	
+}
+#block-quicktabs-4 .quicktabs_tabs li.qtab-0 a {
+	display:block;
+	float:left;
+	height:31px;
+	width:180px!important;
+	background:url(../images/box_center_title_vunue-non.png) left top no-repeat;
+}
+#block-quicktabs-4 .quicktabs_tabs li.qtab-1.active a {
+	display:block;
+	float:left;
+	height:31px;
+	width:182px!important;
+	background:url(../images/box_center_title_accom.png) left top no-repeat;
+}
+#block-quicktabs-4 .quicktabs_tabs li.qtab-1 a {
+	display:block;
+	float:left;
+	height:31px;
+	width:182px!important;
+	background:url(../images/box_center_title_accom-non.png) left top no-repeat;
+}
+#block-quicktabs-4 .quicktabs_tabpage {
+	width:998px;
+	padding:0 2px;
+	float:left;
+}
+#block-quicktabs-4 .view-content {
+	border-bottom:1px solid #D2D2D2;
+	display:block;
+	float:left;
+	height:685;
+	margin:0 0 5px 1px;
+	overflow:hidden;
+	padding:10px 0 9px 7px;
+	width:970px;
+}
+#block-quicktabs-4 .content {
+	width:998px;
+	display:block;
+	float:left;
+	padding:0!important;
+	margin:0!important;
+}
+#block-quicktabs-4 .view-content .views-row {
+	display:block;
+	float:left;
+	height:500px;
+	padding:0 8px;
+	width:998px;
+}
+#block-quicktabs-4 .view-content .views-row-even {
+}
+#block-quicktabs-4 .view-content .views-row-odd {
+}
+#block-quicktabs-4 .view-content .views-field-field-picture-fid {
+	clear:both;
+	display:block;
+	float:left;
+	margin-right:5px;
+	width:auto;
+	height:530px;
+}
+#block-quicktabs-4 .view-content .views-field-field-picture-fid img {
+	width:960px;
+	border:1px solid #CCCCCC;
+	display:block;
+	height:520px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+}
+#block-quicktabs-4 .view-content .views-field-title {
+
+	height:29px;
+	padding:5px;
+	width:750px;
+}
+#block-quicktabs-4 .view-content .views-field-title a {
+	color:#333333;
+}
+#block-quicktabs-4 .view-content .views-field-title a:hover {
+	color:#0b62ad;
+}
+
+#block-quicktabs-4 .view-footer{
+	
+	display: block;
+	height: 50px;
+	text-align: right;
+	width: 950px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: -2px;
+	padding-top: 0;
+	padding-right: 7px;
+	padding-bottom: 0;
+	padding-left: 890px;
+}
+
+.view-footer {
+	float:left;
+	width: 990px;
+	padding: 0px 10px;
+}
+#venue-prev, #accom-prev {
+	float:left;
+	font-size:0;
+	background:url(../images/front-prev.png) no-repeat;
+	width:30px;
+	height:20px;
+	cursor:pointer;
+	text-align:left;
+	text-indent:-9999px;
+}
+#venue-next, #accom-next {
+	float:left;
+	font-size:0;
+	background:url(../images/front-next.png)  no-repeat;
+	width:30px;
+	height:20px;
+	cursor:pointer;
+	text-align:left;
+	text-indent:-9999px;
+}

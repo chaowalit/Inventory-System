@@ -1,0 +1,29 @@
+/* old
+#field { margin-left: .5em; float: left; }
+#field, label { float: left; font-family: Arial, Helvetica, sans-serif; font-size: small; }
+*/
+#withdraw_form{
+	color:red;
+}
+#withdraw_form input, select, label { margin-left: .5em; float: left; }
+#withdraw_form input, select, label { 
+	float: left; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+}
+#withdraw_form br { clear: both; }
+#withdraw_form label.error {
+	background: url('images/unchecked.gif') no-repeat;
+	padding-left: 16px;
+	margin-left: .3em;
+}
+#withdraw_form label.valid {
+	background: url('images/checked.gif') no-repeat;
+	display: block;
+	width: 16px;
+	height: 16px;
+}
+#withdraw_form input[type="text"]{
+	vertical-align:middle;
+	height:auto;
+}
